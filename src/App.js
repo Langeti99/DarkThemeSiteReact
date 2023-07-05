@@ -24,7 +24,6 @@ function App() {
           <Route path="/project/:id" element={<ProjectBig />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
-        <ProjectBig />
 
         <Footer />
       </Router>
